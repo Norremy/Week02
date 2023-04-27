@@ -10,13 +10,13 @@
         android:id="@+id/textView8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Welcome to Android!" />
+        android:text="@string/welcome_text" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=" Button 1" />
+        android:text="@string/b1" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="LargeText"
+            android:text="@string/large_text"
             android:textAppearance="@android:style/TextAppearance.Large" />
 
         <Button
@@ -35,6 +35,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="Button" />
+            android:text="@string/b2" />
     </LinearLayout>
 </LinearLayout>
